@@ -1,6 +1,6 @@
 # Project Title: Mapping accessibility to public transit in Chicago, Illinois
 
-# Name(s) of individual or team members: Eliza Lawrence, Catharine Fleming
+# Name(s) of individual or team members: Eliza Lawrence, Catharine Fleming, Anneke Brouwer
 
 # Short 1-2 sentence summary: We plan to map distance to bus and train stops in Chicago from block group Census data.
 
