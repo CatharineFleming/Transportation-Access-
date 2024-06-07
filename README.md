@@ -1,8 +1,10 @@
 ### Project Title: Mapping accessibility to public transit in Chicago, Illinois
 
-Name(s) of individual or team members: Eliza Lawrence, Catharine Fleming, Anneke Brouwer
+### Name(s) of individual or team members: 
+Eliza Lawrence, Catharine Fleming, Anneke Brouwer
 
-### Short 1-2 sentence summary: We plan to map distance to bus and train stops in Chicago from block group Census data.
+### Short 1-2 sentence summary: 
+We plan to map distance to bus and train stops in Chicago from block group Census data.
 
 ### Problem statement, question(s) and/or objective(s): 
 We hope to determine if access and resources to transportation is distributed equally. This will help us figure out how difficult it is for people to get to work in major cities without a car.
