@@ -1,23 +1,30 @@
-### Project Title: Mapping accessibility to public transit in Chicago, Illinois
+### Project Title: Identifying US Transit Deserts at Tract Level
 
 Name(s) of individual or team members: Eliza Lawrence, Catharine Fleming, Anneke Brouwer
 
-### Short 1-2 sentence summary: We plan to map distance to bus and train stops in Chicago from block group Census data.
+### Short 1-2 sentence summary: We mapped the level of demand and supply of public transportation in Chicago and Houston from block group Census data.
 
 ### Problem statement, question(s) and/or objective(s): 
-We hope to determine if access and resources to transportation is distributed equally. This will help us figure out how difficult it is for people to get to work in major cities without a car.
+We hope to determine if access and resources to transportation is distributed equally. This will help us figure out what areas of the city need to have public transportation expanded to meet the demand.
 
 ### Datasets you will use (with links, if available): 
-bus stops: https://data.cityofchicago.org/Transportation/CTA-Bus-Stops/hvnx-qtky
+Bureau, United States Census. “Explore Census Data.” Explore Census Data, data.census.gov/.
+
+Index of /Geo/Tiger/TIGER2021, www2.census.gov/geo/tiger/TIGER2021/. Accessed 4 June
+2024.
+
+Open Mobility Data. "Feeds" https://openmobilitydata.org/feeds
+    Chicago: https://openmobilitydata.org/p/chicago-transit-authority/165
+    Houston: https://openmobilitydata.org/p/metro/25
 
 ### Python packages that team members require: 
-matplotlib, numpy, geopandas, jupyter, osmnx, networkx
+matplotlib, numpy, geopandas, jupyter, osmnx, networkx, census, pandas, scipy, matplotlib, contextily, shapely, gtfs_functions, gtfs_kit
 
 ### Planned methods/approach: 
-Network analysis based on the methods in Assignment 3. We will use isochrone polygons to determine how long it takes for people to reach bus or train stations by walking.
+Network analysis based on the methods in Assignment 3 and census variable analysis based on Activity 3.
 
 ### Expected outcomes: 
-neighborhoods further from central chicago will have less accessibility to public transit
+neighborhoods further from central chicago and central houston will have less accessibility to public transit
 
 ### Any other relevant information, images/tables, references, etc.
 
